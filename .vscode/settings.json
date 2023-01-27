@@ -1,0 +1,20 @@
+{
+    "python.pythonPath": "F:\\skillfactory\\YOLOV5_Flask_server\\.env\\python.exe",
+    "python.envFile": "${workspaceFolder}/.env",
+    "venvFolders": "${workspaceFolder}/.env",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
+    "python.linting.enabled": true,
+    "editor.rulers": [80],
+    "editor.tabSize": 4,
+    "prettier.singleQuote": true,
+    "editor.defaultFormatter": "ms-python.python",
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402,F841,F401,E302,E305",
+    ]
+}
